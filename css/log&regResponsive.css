@@ -1,0 +1,187 @@
+@media (max-width: 1198px) {
+    .log form,
+    .register form{
+        width:60vw;
+        
+    }
+}
+@media (max-width: 1024px) {
+    
+    .log form,.register form{
+        width:65vw;
+        height: 80vh;
+    }
+
+    .reg-input-box{
+    margin-top: 50px;
+    }
+    .reg-input-box label{
+        font-size: 20px;
+    }
+    .log,.register{
+        align-items: stretch;
+    }
+    .log form{
+        margin-top: 50px;
+        height:50vh;
+    }
+    .register form{
+        margin-top: 50px;
+        height:80vh;
+    }
+    .form-input-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .form-input-box input{
+        float: right;
+        width: 18rem;
+        margin-left: 10px;
+    }
+    .reg{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        transform: translateX(-202px);
+    }
+    .reg a{
+        margin-left:0px;
+    }
+}
+@media (max-width: 992px) {
+    .form-input-box,.reg-input-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: stretch;
+    }
+    .form-input-box input,.reg-input-box input{
+        padding-top: 20px;
+    }
+    ::-webkit-input-placeholder{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        text-align: start;
+        padding-left: 10px;
+        letter-spacing: 1.5px;
+    }
+    .log{
+        align-items: stretch;
+    }
+    .log form{
+        margin-top: 50px;
+        height:50vh;
+    }
+    .form-input-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .form-input-box input{
+        float: right;
+        width: 18rem;
+        margin-left: 10px;
+    }
+    .reg{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        transform: translateX(-115px);
+    }
+    .reg a{
+        margin-left:0px;
+    }
+}
+@media (max-width: 769px) {
+    .register{
+        height: 150rem;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .register form{
+        margin-top: 70px;
+        height: 96rem;
+    }
+    .log{
+        align-items: stretch;
+    }
+    .log form{
+        margin-top: 50px;
+        height:60vh;
+    }
+    .form-input-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .form-input-box input{
+        float: right;
+        width: 18rem;
+        margin-left: 10px;
+    }
+    .reg-input-box input,.reg-input-box select{
+        width: 27rem;
+    }
+    #conf input{
+        width: 27rem;
+    }
+    .reg{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        transform: translateX(-115px);
+    }
+    .reg a{
+        margin-left:0px;
+    }
+}
+@media (max-width: 592px) {
+    .register{
+        overflow:hidden ;
+    }
+    .register form{
+        width: 80vw;
+        margin-top: 70px;
+        height: 96rem;
+    }
+    .reg-input-box input,.reg-input-box select{
+        width: 15rem;
+    }
+    #conf input{
+        width: 15rem;
+    }
+    .log{
+        height: 120vh;
+    }
+    .log form{
+        margin-top: 50px;
+        height:100vh;
+        width: 80vw;
+    }
+    .form-input-box{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: center;
+
+    }
+    .form-input-box input{
+        width: 15rem;
+        margin-left: 30px;
+    }
+    .reg{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        transform: translateX(-30px);
+    }
+    .reg a{
+        margin-left:0px;
+    }
+}
